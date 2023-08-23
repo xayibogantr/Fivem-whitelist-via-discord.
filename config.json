@@ -1,11 +1,11 @@
 {
-    "token": "",
+    "token": "", #bot token
     "prefix": "-",
-    "admin_roleid": "1056963038630129793",
+    "admin_roleid": "", #yönetici rol id
     "discord_whitelist": {
          "active": true,
-         "role_id": "1056963038126805006",
-         "server_id": "1056963038101647530"
+         "role_id": "", #whitelist rol idsi
+         "server_id": "" #sunucu idsi
     },
     "useQB": true,
     "old_esx": {
@@ -17,5 +17,5 @@
          {"table": "players", "owner": "citizenid"},
          {"table": "addon_account_data", "owner": "owner"}
     ],
-    "discord_link": "https://discord.gg/fsmrp"
+    "discord_link": "https://discord.gg/" #sunucu link
 }
