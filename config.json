@@ -1,0 +1,21 @@
+{
+    "token": "",
+    "prefix": "-",
+    "admin_roleid": "1056963038630129793",
+    "discord_whitelist": {
+         "active": true,
+         "role_id": "1056963038126805006",
+         "server_id": "1056963038101647530"
+    },
+    "useQB": true,
+    "old_esx": {
+         "user_accounts": false,
+         "user_inventory": false
+    },
+    "identifier": "license",
+    "wipe_tables": [
+         {"table": "players", "owner": "citizenid"},
+         {"table": "addon_account_data", "owner": "owner"}
+    ],
+    "discord_link": "https://discord.gg/fsmrp"
+}
