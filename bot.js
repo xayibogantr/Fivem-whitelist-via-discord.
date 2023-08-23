@@ -5,15 +5,15 @@ let CurrentChannel = false;
 let changedMember = [];
 
 client.on('ready', () => {
-     console.log('^1 [xayibogantr] Bot hazir!')
-     exports['xayibogantr-db'].GetConfig(config);
+     console.log('^1 [user0919] Bot hazir!')
+     exports['user0919-wl'].GetConfig(config);
      if (config.discord_whitelist.active) {
           on('playerConnecting', (name, setCallback, deferrals) => {
                memberList = client.guilds.members
                const guild = client.guilds.get(config.discord_whitelist.server_id);
                const src = global.source;
                deferrals.defer();
-               const player = exports['xayibogantr-db'].GetDiscordFromId(src)
+               const player = exports['user0919-wl'].GetDiscordFromId(src)
                deferrals.update('Discord whitelist kontrol ediliyor, lütfen bekleyiniz.')
                setTimeout(() => {
                     const discordId = player[0]
