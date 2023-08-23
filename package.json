@@ -1,5 +1,5 @@
 {
-  "name": "xayibogantr-db",
+  "name": "user0919-wl",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/xayibogantr/wl"
+    "url": "\u0016https://github.com/xuser0919/Fivem-whitelist-via-discord"
   },
-  "author": "xayibogantr",
+  "author": "user0919",
   "license": "ISC",
   "dependencies": {
     "discord.js": "git+https://github.com/vecchiotom/discord.js.git#d9e8619353e60e02619c48745356b0511050d22d"
